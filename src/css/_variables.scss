@@ -1,0 +1,26 @@
+// Fuentes
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+$fontFamily: 'Red Hat Display', sans-serif;
+$fontSize: 16px;
+
+// Colores 
+$color-Pale-blue: hsl(225, 100%, 94%);
+$color-Bright-blue: hsl(245, 75%, 52%);
+$color-Bright-blue1: hsl(256, 73%, 55%);
+$color-Very-pale-blue: hsl(225, 100%, 98%);
+$color-Desaturated-blue: hsl(224, 23%, 55%);
+$color-Desaturated-blue1: hsl(224, 23%, 90%);
+$color-Dark-blue: hsl(223, 47%, 23%);
+$color-Dark-blue1: hsl(223, 47%, 95%);
+
+// Section Main
+$widthSectionMain: 450px;
+$heightSectionMain: 600px;
+$p-sectionMain: 35px;
+$br-sectionMain: 20px;
+$w-imgMusic: 40px;
+$h-imgMusic: 40px;
+
+// Media queries
+$width-Mobile: 500px;
+$width-Desktop: 1440px;

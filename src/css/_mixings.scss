@@ -1,0 +1,15 @@
+
+@mixin center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@mixin size-content($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+@mixin m-transition($prop, $time, $method) {
+    transition: $prop $time $method;
+}
