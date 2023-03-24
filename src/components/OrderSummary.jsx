@@ -1,11 +1,12 @@
 
+
 export const OrderSummary = () => {
-  return (
-    <section className="section-main">
+    return (
+        <section className="section-main">
         <img 
-            src="/images/illustration-hero.svg" 
-            alt="Icono" 
             className="image-main"
+            src="/images/illustration-hero.png" 
+            alt="Icono" 
         />
         <article>
             <h2>Order Summary</h2>
