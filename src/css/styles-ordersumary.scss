@@ -28,10 +28,9 @@ main {
     border-radius: $br-sectionMain;
     background: $color-Very-pale-blue;
 
-
     .image-main {
         border-radius: $br-sectionMain $br-sectionMain 0 0;
-        @include size-content(inherit, 220px);
+        @include size-content(100%, 220px);
     }
 
     article {
@@ -127,6 +126,7 @@ main {
 
         .image-main {
             width: 100%;
+            height: auto;
         }
     }
 }
