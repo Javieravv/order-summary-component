@@ -3,6 +3,7 @@
 export const OrderSummary = () => {
     return (
         <section className="section-main">
+        <h1 className="sr-only">Order summary Component</h1>
         <img 
             className="image-main"
             src="/images/illustration-hero.png" 
