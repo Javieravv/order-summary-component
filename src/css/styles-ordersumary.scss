@@ -12,12 +12,12 @@ body {
     background-color: $color-Pale-blue;
     font-family: $fontFamily;
     font-size: $fontSize;
-    background: url(./images/pattern-background-desktop.svg), #E1E9Ff;
+    background: url(/images/pattern-background-desktop.svg), #E1E9Ff;
     background-repeat: no-repeat, no-repeat;
     background-size: contain;
 
     @media (max-width: $width-Mobile) {
-        background: url(./images/pattern-background-mobile.svg), #E1E9Ff;
+        background: url(/images/pattern-background-mobile.svg), #E1E9Ff;
         background-repeat: no-repeat, no-repeat;
         background-size: contain;
     }
